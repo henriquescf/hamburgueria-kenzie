@@ -1,0 +1,9 @@
+.products-list{
+    display: grid;
+    column-gap: 3.125rem;
+    row-gap: 3.125rem;
+    grid-template-columns: repeat(4, minmax(0, 18.75rem));
+    min-width: max-content;
+    margin-left: 5%;
+    margin-bottom: 1.25rem;
+}

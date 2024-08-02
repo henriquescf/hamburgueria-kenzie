@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    background-color: var(--quaternary-grey-color);
+    padding: 0 5%;
+
+    button{
+        color: #BDBDBD;
+        background-color: var(--quaternary-grey-color);
+        position: relative;
+
+        &:hover{
+            background-color: var(--quaternary-grey-color);
+            color: var(--primary-color);
+        }
+
+        span{
+            background-color: var(--primary-color);
+            border-radius: 0.4375rem;
+            color: white;
+            font-size: 0.875rem;
+            padding: 1px 4px;
+            position: absolute;
+            bottom: 16px;
+            left: 10px;
+            font-weight: bold;
+        }
+    }
+}

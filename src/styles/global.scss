@@ -1,0 +1,53 @@
+:root{
+    --primary-color: #27AE60;
+    --secondary-color: #EB5757;
+
+    --primary-grey-color: #333333;
+    --secondary-grey-color: #828282;
+    --tertiary-grey-color: #E0E0E0;
+    --quaternary-grey-color: #F5F5F5;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-size: 1.625rem;
+}
+
+h2 {
+    font-size: 1.375rem;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: var(--primary-grey-color);
+}
+
+p {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+span {
+    font-size: 0.75rem;
+    color: var(--secondary-grey-color);
+}
+
+button {
+    color: white;
+    border-radius: 0.5rem;
+    background-color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 600;
+
+    &:hover{
+        background-color: var(--primary-color);
+    }
+}
